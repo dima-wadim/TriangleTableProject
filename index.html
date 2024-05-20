@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица с треугольниками</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table id="main-table">
+        <tr>
+            <th>№</th>
+            <th>Город</th>
+            <th>Страна</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="city">
+                Москва
+                <div class="triangle triangle-left" onclick="toggleTable(this, 'up')"></div>
+                <div class="triangle triangle-right" onclick="toggleTable(this, 'down')"></div>
+                <div class="triangle triangle-middle" onclick="toggleTable(this, 'middle')"></div>
+            </td>
+            <td>Россия</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="city">
+                Париж
+                <div class="triangle triangle-left" onclick="toggleTable(this, 'up')"></div>
+                <div class="triangle triangle-right" onclick="toggleTable(this, 'down')"></div>
+                <div class="triangle triangle-middle" onclick="toggleTable(this, 'middle')"></div>
+            </td>
+            <td>Франция</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="city">
+                Нью-Йорк
+                <div class="triangle triangle-left" onclick="toggleTable(this, 'up')"></div>
+                <div class="triangle triangle-right" onclick="toggleTable(this, 'down')"></div>
+                <div class="triangle triangle-middle" onclick="toggleTable(this, 'middle')"></div>
+            </td>
+            <td>США</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td class="city">
+                Токио
+                <div class="triangle triangle-left" onclick="toggleTable(this, 'up')"></div>
+                <div class="triangle triangle-right" onclick="toggleTable(this, 'down')"></div>
+                <div class="triangle triangle-middle" onclick="toggleTable(this, 'middle')"></div>
+            </td>
+            <td>Япония</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td class="city">
+                Берлин
+                <div class="triangle triangle-left" onclick="toggleTable(this, 'up')"></div>
+                <div class="triangle triangle-right" onclick="toggleTable(this, 'down')"></div>
+                <div class="triangle triangle-middle" onclick="toggleTable(this, 'middle')"></div>
+            </td>
+            <td>Германия</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td class="city">
+                Рим
+                <div class="triangle triangle-left" onclick="toggleTable(this, 'up')"></div>
+                <div class="triangle triangle-right" onclick="toggleTable(this, 'down')"></div>
+                <div class="triangle triangle-middle" onclick="toggleTable(this, 'middle')"></div>
+            </td>
+            <td>Италия</td>
+        </tr>
+    </table>
+    <script src="scripts.js"></script>
+</body>
+</html>

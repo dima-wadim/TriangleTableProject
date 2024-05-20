@@ -1,0 +1,40 @@
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+.city {
+    position: relative;
+    cursor: pointer;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+}
+.triangle-left {
+    border-width: 0 10px 10px 0;
+    border-color: transparent #007bff transparent transparent;
+    left: -15px;
+    top: 0;
+}
+.triangle-right {
+    border-width: 10px 0 0 10px;
+    border-color: transparent transparent transparent #007bff;
+    right: -15px;
+    bottom: 0;
+}
+.triangle-middle {
+    border-width: 10px 10px 0 0;
+    border-color: #007bff transparent transparent transparent;
+    left: 50%;
+    top: -15px;
+    transform: translateX(-50%);
+}
